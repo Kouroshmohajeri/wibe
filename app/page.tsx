@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Preloader from "@/components/preloader";
+
 import TopStrip from "@/components/TopStrip";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -11,6 +11,7 @@ import WhyUs from "@/components/WhyUs";
 import Support from "@/components/Support";
 import CoverageCta from "@/components/CoverageCta";
 import Footer from "@/components/Footer";
+import Preloader from "@/components/preloader";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);

@@ -31,35 +31,33 @@ export default function Hero() {
         <div>
           <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 py-2 px-4 rounded-full text-[13px] font-bold tracking-wide mb-6">
             <span className="h-2 w-2 rounded-full bg-[#5ec26a]" />
-            FIBRA PROPIA · ATENCIÓN DE VERDAD
+            FIBRA + MÓVIL · SIN COMPLICACIONES
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight mb-5">
-            Fibra{" "}
+            Fibra y móvil
+            <br />
             <span className="bg-gradient-to-r from-[#5ec26a] to-[#8fe3ff] bg-clip-text text-transparent">
-              rápida y estable
+              desde 31€/mes.
             </span>
-            .<br />
-            Atención de verdad.
           </h1>
           <p className="text-lg text-white/85 max-w-md mb-8">
-            Conexión simétrica hasta 1 Gb y móvil desde 31€/mes. Instalación
-            rápida y una persona real al otro lado del teléfono.
+            Precio claro, fibra rápida y atención humana. Sin letra pequeña.
+            Comprueba tu cobertura y contrata en pocos minutos.
           </p>
           <div className="flex flex-wrap gap-4 mb-7">
             <a
-              href="#planes"
-              className="inline-flex items-center gap-2 bg-white text-[#0b2d55] py-4 px-7 rounded-2xl font-extrabold text-[15px] shadow-2xl hover:scale-[1.02] transition-transform"
-            >
-              Ver planes desde 31€/mes <ArrowRight size={18} weight="bold" />
-            </a>
-            <a
               href="#contacto"
-              className="inline-flex items-center gap-2 border-[1.5px] border-white/50 text-white py-4 px-7 rounded-2xl font-bold text-[15px] hover:bg-white/10 transition-colors"
+              className="inline-flex items-center gap-2 bg-white text-[#0b2d55] py-4 px-7 rounded-2xl font-extrabold text-[15px] shadow-2xl hover:scale-[1.02] transition-transform"
             >
               <MapPin size={18} weight="bold" /> Comprobar cobertura
             </a>
+            <a
+              href="#planes"
+              className="inline-flex items-center gap-2 border-[1.5px] border-white/50 text-white py-4 px-7 rounded-2xl font-bold text-[15px] hover:bg-white/10 transition-colors"
+            >
+              Ver tarifas <ArrowRight size={18} weight="bold" />
+            </a>
           </div>
-          <GoogleButton />
         </div>
 
         <div className="relative rounded-[28px] overflow-hidden shadow-2xl border border-white/15 h-[420px]">
@@ -90,7 +88,7 @@ export default function Hero() {
 
           <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur rounded-2xl p-5 text-[#0b2d55]">
             <div className="text-[11px] font-bold text-[#5b7290] uppercase tracking-wider">
-              Fibra WiBe destacada
+              Fibra + móvil destacada
             </div>
             <div className="flex items-baseline gap-2 mt-1">
               <span className="text-3xl font-extrabold text-[#1565c0]">
