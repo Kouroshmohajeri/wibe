@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Tarifas de Fibra y Móvil",
   description:
-    "Consulta las tarifas de fibra y móvil de WiBe desde 31€/mes. Fibra 600 Mb, 1 Gb y móvil con datos ilimitados, sin complicaciones.",
+    "Consulta las tarifas de fibra y móvil de WiBe desde 29.90€/mes. Fibra 600 Mb, 1 Gb y móvil con datos ilimitados, sin complicaciones.",
   alternates: {
     canonical: "https://wibeonline.es/planes",
   },

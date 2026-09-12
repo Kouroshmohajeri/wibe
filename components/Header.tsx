@@ -8,7 +8,7 @@ import { ArrowRight } from "@phosphor-icons/react/ssr";
 
 const NAV_LINKS = [
   { href: "/planes", label: "Planes" },
-  { href: "/plan-amigo", label: "Plan Amigo" },
+  { href: "/plan-amigo", label: "Plan My Best Friend" },
   { href: "/comparador", label: "Comparador" },
   { href: "/porque", label: "Por qué WiBe" },
   { href: "/soporte", label: "Soporte" },
