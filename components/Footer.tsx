@@ -1,18 +1,57 @@
 import Image from "next/image";
 import Link from "next/link";
-import { EnvelopeSimple, Phone, MapPin } from "@phosphor-icons/react/ssr";
+import {
+  EnvelopeSimple,
+  Phone,
+  MapPin,
+  InstagramLogo,
+} from "@phosphor-icons/react/ssr";
 import { PHONE_NUMBER, SUPPORT_EMAIL } from "@/lib/constants";
 
 const FOOTER_LINKS = {
   planes: [
-    { label: "Ver todas las tarifas", href: "/planes" },
-    { label: "Plan Amigo", href: "/plan-amigo" },
-    { label: "Comparador de factura", href: "/comparador" },
+    {
+      label: "Ver todas las tarifas",
+      href: "/planes",
+    },
+    {
+      label: "Plan My Best Friend",
+      href: "/plan-amigo",
+    },
+    {
+      label: "Comparador de factura",
+      href: "/comparador",
+    },
   ],
   empresa: [
-    { label: "Por qué WiBe", href: "/porque" },
-    { label: "Soporte", href: "/soporte" },
-    { label: "Comprobar cobertura", href: "/contacto" },
+    {
+      label: "Por qué WiBe",
+      href: "/porque",
+    },
+    {
+      label: "Soporte",
+      href: "/soporte",
+    },
+    {
+      label: "Comprobar cobertura",
+      href: "/contacto",
+    },
+    {
+      label: "Aviso legal",
+      href: "/aviso-legal",
+    },
+    {
+      label: "Términos y condiciones",
+      href: "/terminos-y-condiciones",
+    },
+    {
+      label: "Política de privacidad",
+      href: "/politica-privacidad",
+    },
+    {
+      label: "Política de cookies",
+      href: "/politica-cookies",
+    },
   ],
 };
 
@@ -30,15 +69,32 @@ export default function Footer() {
               className="object-contain"
             />
           </div>
+
           <p className="text-[13px]">
             Fibra propia y atención de verdad, en toda España.
           </p>
+
+          <p className="text-[12px] leading-5 mt-3 text-white/50">
+            WiBe es una marca propiedad de JUST SMILE 23 S.L.
+          </p>
+
+          <a
+            href="https://www.instagram.com/wibeonline/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WiBe en Instagram"
+            className="inline-flex items-center gap-2 mt-4 text-[13px] font-bold text-white hover:text-[#5ec26a] transition-colors"
+          >
+            <InstagramLogo size={20} weight="fill" />
+            Instagram
+          </a>
         </div>
 
         <div>
           <h5 className="text-white text-sm font-extrabold mb-3.5 uppercase tracking-wide">
             Planes
           </h5>
+
           <ul className="text-[13px] space-y-1.5">
             {FOOTER_LINKS.planes.map((link) => (
               <li key={link.href}>
@@ -57,6 +113,7 @@ export default function Footer() {
           <h5 className="text-white text-sm font-extrabold mb-3.5 uppercase tracking-wide">
             Empresa
           </h5>
+
           <ul className="text-[13px] space-y-1.5">
             {FOOTER_LINKS.empresa.map((link) => (
               <li key={link.href}>
@@ -75,15 +132,21 @@ export default function Footer() {
           <h5 className="text-white text-sm font-extrabold mb-3.5 uppercase tracking-wide">
             Contacto
           </h5>
+
           <ul className="text-[13px] space-y-1.5">
             <li className="flex items-center gap-2">
-              <EnvelopeSimple size={15} /> {SUPPORT_EMAIL}
+              <EnvelopeSimple size={15} />
+              {SUPPORT_EMAIL}
             </li>
+
             <li className="flex items-center gap-2">
-              <Phone size={15} /> {PHONE_NUMBER}
+              <Phone size={15} />
+              {PHONE_NUMBER}
             </li>
+
             <li className="flex items-center gap-2">
-              <MapPin size={15} /> Barcelona, España
+              <MapPin size={15} />
+              Barcelona, España
             </li>
           </ul>
         </div>

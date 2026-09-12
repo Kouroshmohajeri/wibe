@@ -1,4 +1,13 @@
 export default function StructuredData() {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "WiBe",
+    url: "https://wibeonline.es",
+    logo: "https://wibeonline.es/assets/logo.webp",
+    sameAs: ["https://www.instagram.com/wibeonline/"],
+  };
+
   const offersSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -13,10 +22,10 @@ export default function StructuredData() {
       {
         "@type": "Offer",
         name: "Fibra 600 + 30GB",
-        price: "31",
+        price: "29.90",
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
-        url: "https://wibeonline.es/#planes",
+        url: "https://wibeonline.es/planes#planes",
       },
       {
         "@type": "Offer",
@@ -24,7 +33,7 @@ export default function StructuredData() {
         price: "35",
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
-        url: "https://wibeonline.es/#planes",
+        url: "https://wibeonline.es/planes#planes",
       },
       {
         "@type": "Offer",
@@ -32,7 +41,31 @@ export default function StructuredData() {
         price: "48",
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
-        url: "https://wibeonline.es/#planes",
+        url: "https://wibeonline.es/planes#planes",
+      },
+      {
+        "@type": "Offer",
+        name: "Fibra 1 Gb + 30GB",
+        price: "35",
+        priceCurrency: "EUR",
+        availability: "https://schema.org/InStock",
+        url: "https://wibeonline.es/planes#planes",
+      },
+      {
+        "@type": "Offer",
+        name: "Fibra 1 Gb + 60GB",
+        price: "39",
+        priceCurrency: "EUR",
+        availability: "https://schema.org/InStock",
+        url: "https://wibeonline.es/planes#planes",
+      },
+      {
+        "@type": "Offer",
+        name: "Fibra 1 Gb + Móvil Ilimitado",
+        price: "52",
+        priceCurrency: "EUR",
+        availability: "https://schema.org/InStock",
+        url: "https://wibeonline.es/planes#planes",
       },
     ],
   };
@@ -46,7 +79,7 @@ export default function StructuredData() {
         name: "¿Cuánto cuesta la fibra y móvil de WiBe?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Las tarifas de fibra y móvil de WiBe empiezan desde 31€/mes, con fibra de 600 Mb y 30GB de móvil incluidos.",
+          text: "Las tarifas de fibra y móvil de WiBe empiezan desde 29.90€/mes, con fibra de 600 Mb y 30GB de móvil incluidos.",
         },
       },
       {
@@ -72,11 +105,23 @@ export default function StructuredData() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(offersSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema),
+        }}
       />
+
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(offersSchema),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
       />
     </>
   );

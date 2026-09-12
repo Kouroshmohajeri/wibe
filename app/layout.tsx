@@ -20,11 +20,11 @@ const siteUrl = "https://wibeonline.es";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "WiBe | Fibra y Móvil desde 31€/mes",
+    default: "WiBe | Fibra y Móvil desde 29.90€/mes",
     template: "%s | WiBe",
   },
   description:
-    "Fibra y móvil desde 31€/mes, sin complicaciones. Precio claro, fibra rápida y atención humana. Comprueba tu cobertura con WiBe.",
+    "Fibra y móvil desde 29.90€/mes, sin complicaciones. Precio claro, fibra rápida y atención humana. Comprueba tu cobertura con WiBe.",
   keywords: [
     "fibra y móvil",
     "fibra móvil barata",
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
     locale: "es_ES",
     url: siteUrl,
     siteName: "WiBe",
-    title: "WiBe | Fibra y Móvil desde 31€/mes",
+    title: "WiBe | Fibra y Móvil desde 29.90€/mes",
     description:
-      "Fibra y móvil desde 31€/mes, sin complicaciones. Precio claro, fibra rápida y atención humana.",
+      "Fibra y móvil desde 29.90€/mes, sin complicaciones. Precio claro, fibra rápida y atención humana.",
     images: [
       {
         url: "/assets/logo.webp",
@@ -64,9 +64,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "WiBe | Fibra y Móvil desde 31€/mes",
+    title: "WiBe | Fibra y Móvil desde 29.90€/mes",
     description:
-      "Fibra y móvil desde 31€/mes, sin complicaciones. Precio claro, fibra rápida y atención humana.",
+      "Fibra y móvil desde 29.90€/mes, sin complicaciones. Precio claro, fibra rápida y atención humana.",
     images: ["/assets/logo.webp"],
   },
   alternates: {

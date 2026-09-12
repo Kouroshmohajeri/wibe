@@ -37,7 +37,7 @@ export default function Hero() {
             Fibra y móvil
             <br />
             <span className="bg-gradient-to-r from-[#5ec26a] to-[#8fe3ff] bg-clip-text text-transparent">
-              desde 31€/mes.
+              desde 29.90€/mes.
             </span>
           </h1>
           <p className="text-lg text-white/85 max-w-md mb-8">
