@@ -113,7 +113,80 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                4. Tarifas y precios
+                4. Herramienta de comparación asistida por inteligencia
+                artificial
+              </h2>
+
+              <p>
+                WiBe ofrece una herramienta de comparación que utiliza
+                tecnologías automatizadas, incluida inteligencia artificial,
+                para analizar la información proporcionada por el usuario y
+                ayudarle a identificar la tarifa de WiBe que puede ajustarse
+                mejor a sus necesidades actuales.
+              </p>
+
+              <p className="mt-4">
+                El usuario puede utilizar esta herramienta introduciendo
+                manualmente los datos de su servicio de telecomunicaciones o
+                subiendo una factura de su actual proveedor.
+              </p>
+
+              <p className="mt-4">
+                Cuando el usuario sube una factura, esta se procesa para
+                realizar el análisis y la comparación solicitados. WiBe no
+                almacena la factura en sus propios sistemas una vez finalizado
+                el proceso de comparación.
+              </p>
+
+              <p className="mt-4">
+                Para realizar el análisis automatizado, la factura y/o la
+                información necesaria extraída de ella puede ser procesada
+                mediante servicios tecnológicos de terceros utilizados por WiBe,
+                incluida tecnología de inteligencia artificial proporcionada por
+                Google Gemini.
+              </p>
+
+              <p className="mt-4">
+                El resultado de la herramienta se basa en la información
+                proporcionada por el usuario o extraída automáticamente de la
+                factura. La herramienta puede no identificar correctamente toda
+                la información contenida en un documento y, por tanto, el
+                resultado debe considerarse una recomendación orientativa.
+              </p>
+
+              <p className="mt-4">
+                La recomendación obtenida mediante la herramienta no constituye
+                por sí misma una oferta contractual vinculante ni garantiza la
+                disponibilidad del servicio, la cobertura, el precio final o la
+                posibilidad de contratación en una dirección determinada.
+              </p>
+
+              <p className="mt-4">
+                Antes de contratar, WiBe podrá verificar la cobertura,
+                disponibilidad técnica, datos proporcionados y condiciones
+                aplicables al servicio seleccionado.
+              </p>
+
+              <p className="mt-4">
+                El usuario será responsable de asegurarse de que tiene derecho a
+                proporcionar cualquier factura o documento que suba a la
+                herramienta y deberá evitar incluir información personal,
+                sensible o confidencial de terceros que no sea necesaria para
+                realizar la comparación.
+              </p>
+
+              <p className="mt-4">
+                La herramienta de comparación no sustituye la información
+                contractual que se facilite al cliente antes de la contratación.
+                En caso de discrepancia entre una recomendación de la
+                herramienta y las condiciones contractuales del servicio,
+                prevalecerán estas últimas.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
+                5. Tarifas y precios
               </h2>
 
               <p>
@@ -158,7 +231,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                5. Fibra y servicio de internet
+                6. Fibra y servicio de internet
               </h2>
 
               <p>
@@ -183,7 +256,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                6. Servicio móvil y cobertura
+                7. Servicio móvil y cobertura
               </h2>
 
               <p>
@@ -217,7 +290,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                7. Instalación y activación
+                8. Instalación y activación
               </h2>
 
               <p>
@@ -249,7 +322,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                8. Equipos
+                9. Equipos
               </h2>
 
               <p>
@@ -274,7 +347,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                9. Facturación y pago
+                10. Facturación y pago
               </h2>
 
               <p>
@@ -305,7 +378,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                10. Permanencia y baja
+                11. Permanencia y baja
               </h2>
 
               <p>
@@ -339,7 +412,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                11. Derecho de desistimiento
+                12. Derecho de desistimiento
               </h2>
 
               <p>
@@ -367,7 +440,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                12. Uso adecuado de los servicios
+                13. Uso adecuado de los servicios
               </h2>
 
               <p>
@@ -391,7 +464,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                13. Disponibilidad y mantenimiento
+                14. Disponibilidad y mantenimiento
               </h2>
 
               <p>
@@ -410,7 +483,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                14. Atención al cliente y reclamaciones
+                15. Atención al cliente y reclamaciones
               </h2>
 
               <p>
@@ -440,7 +513,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                15. Protección de datos
+                16. Protección de datos
               </h2>
 
               <p>
@@ -465,7 +538,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                16. Modificación de las condiciones
+                17. Modificación de las condiciones
               </h2>
 
               <p>
@@ -482,7 +555,7 @@ export default function TerminosCondicionesPage() {
 
             <section>
               <h2 className="text-2xl font-black text-[#0b2d55] mb-4">
-                17. Legislación aplicable y jurisdicción
+                18. Legislación aplicable y jurisdicción
               </h2>
 
               <p>
@@ -500,7 +573,7 @@ export default function TerminosCondicionesPage() {
 
             <section className="border-t border-[#dbe5ee] pt-8">
               <p className="text-sm text-[#687b8e]">
-                Última actualización: 2026
+                Última actualización: 12 de septiembre de 2026
               </p>
             </section>
           </div>

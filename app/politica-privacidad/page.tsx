@@ -182,12 +182,95 @@ export default function PoliticaPrivacidadPage() {
                     Mejorar nuestros productos, servicios y procesos de
                     atención.
                   </li>
+                  <li>
+                    Realizar comparaciones orientativas de tarifas cuando el
+                    usuario utilice la herramienta de comparación de facturas.
+                  </li>
                 </ul>
               </section>
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  5. Bases jurídicas
+                  5. Comparación de facturas asistida por inteligencia
+                  artificial
+                </h2>
+
+                <p>
+                  WiBe ofrece una herramienta de comparación que utiliza
+                  tecnologías automatizadas, incluida inteligencia artificial,
+                  para analizar la información proporcionada por el usuario y
+                  ayudarle a identificar la tarifa de WiBe que puede ajustarse
+                  mejor a sus necesidades actuales.
+                </p>
+
+                <p className="mt-3">
+                  El usuario puede utilizar esta herramienta introduciendo
+                  manualmente los datos de su servicio de telecomunicaciones o
+                  subiendo una factura de su actual proveedor.
+                </p>
+
+                <p className="mt-3">
+                  Cuando el usuario sube una factura, el sistema puede procesar
+                  temporalmente la información contenida en el documento que
+                  resulte necesaria para realizar la comparación, como el
+                  proveedor de telecomunicaciones, los servicios contratados, el
+                  número de líneas móviles, los datos incluidos, la velocidad de
+                  fibra y los importes periódicos.
+                </p>
+
+                <p className="mt-3">
+                  La factura se utiliza exclusivamente para realizar la
+                  comparación solicitada. WiBe no almacena la factura en sus
+                  propios sistemas una vez finalizado el proceso de comparación.
+                </p>
+
+                <p className="mt-3">
+                  Para realizar el análisis automatizado, la factura y/o la
+                  información necesaria extraída de ella puede ser enviada a
+                  proveedores tecnológicos que prestan servicios de inteligencia
+                  artificial y procesamiento de datos para WiBe, actualmente
+                  Google Gemini.
+                </p>
+
+                <p className="mt-3">
+                  El tratamiento realizado por dichos proveedores estará sujeto
+                  a las condiciones aplicables a sus servicios y a los acuerdos,
+                  garantías y configuraciones de tratamiento de datos
+                  correspondientes.
+                </p>
+
+                <p className="mt-3">
+                  El resultado obtenido mediante la herramienta tiene carácter
+                  meramente orientativo. La herramienta analiza la información
+                  disponible y puede no identificar correctamente todos los
+                  datos contenidos en una factura.
+                </p>
+
+                <p className="mt-3">
+                  La recomendación no constituye una oferta contractual
+                  vinculante y no garantiza la disponibilidad del servicio, la
+                  cobertura ni las condiciones finales de contratación.
+                </p>
+
+                <p className="mt-3">
+                  El usuario debe evitar subir documentos que contengan
+                  información que no sea necesaria para realizar la comparación
+                  y, en particular, información sensible o datos de terceros que
+                  no resulten necesarios para este servicio.
+                </p>
+
+                <p className="mt-3">
+                  Si el usuario posteriormente inicia un proceso de
+                  contratación, los datos necesarios para dicha contratación
+                  podrán ser tratados de acuerdo con las finalidades, bases
+                  jurídicas y plazos de conservación descritos en esta Política
+                  de Privacidad.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
+                  6. Bases jurídicas
                 </h2>
 
                 <p>
@@ -216,11 +299,18 @@ export default function PoliticaPrivacidadPage() {
                     derechos y libertades de la persona afectada.
                   </li>
                 </ul>
+
+                <p className="mt-4">
+                  En el caso de la herramienta de comparación, el tratamiento de
+                  la información proporcionada por el usuario se realizará para
+                  prestar la funcionalidad solicitada y generar la comparación
+                  orientativa correspondiente.
+                </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  6. Comunicaciones comerciales
+                  7. Comunicaciones comerciales
                 </h2>
 
                 <p>
@@ -252,7 +342,7 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  7. Prestación de servicios de telecomunicaciones
+                  8. Prestación de servicios de telecomunicaciones
                 </h2>
 
                 <p>
@@ -280,7 +370,7 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  8. Proveedores y destinatarios
+                  9. Proveedores y destinatarios
                 </h2>
 
                 <p>
@@ -302,6 +392,7 @@ export default function PoliticaPrivacidadPage() {
                   <li>Proveedores de facturación y pago.</li>
                   <li>Proveedores de herramientas de comunicación.</li>
                   <li>Proveedores de seguridad y prevención del fraude.</li>
+                  <li>Proveedores de inteligencia artificial.</li>
                   <li>Asesores profesionales.</li>
                 </ul>
 
@@ -320,7 +411,7 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  9. Transferencias internacionales
+                  10. Transferencias internacionales
                 </h2>
 
                 <p>
@@ -339,13 +430,27 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  10. Conservación de los datos
+                  11. Conservación de los datos
                 </h2>
 
                 <p>
                   Los datos personales se conservarán durante el tiempo
                   necesario para cumplir las finalidades para las que fueron
                   recogidos.
+                </p>
+
+                <p className="mt-3">
+                  Las facturas subidas a través de la herramienta de comparación
+                  no son almacenadas por WiBe en sus propios sistemas una vez
+                  finalizado el proceso de comparación.
+                </p>
+
+                <p className="mt-3">
+                  La ausencia de almacenamiento por parte de WiBe no impide que
+                  los proveedores tecnológicos utilizados para prestar el
+                  servicio puedan aplicar sus propios períodos de tratamiento,
+                  registro o conservación conforme a sus condiciones,
+                  configuraciones y obligaciones aplicables.
                 </p>
 
                 <p className="mt-3">
@@ -371,7 +476,7 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  11. Seguridad
+                  12. Seguridad
                 </h2>
 
                 <p>
@@ -389,7 +494,7 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  12. Derechos de los usuarios
+                  13. Derechos de los usuarios
                 </h2>
 
                 <p>
@@ -440,7 +545,7 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  13. Reclamaciones ante la autoridad de protección de datos
+                  14. Reclamaciones ante la autoridad de protección de datos
                 </h2>
 
                 <p>
@@ -459,7 +564,7 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  14. Cookies
+                  15. Cookies
                 </h2>
 
                 <p>
@@ -483,7 +588,7 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  15. Redes sociales
+                  16. Redes sociales
                 </h2>
 
                 <p>
@@ -509,7 +614,7 @@ export default function PoliticaPrivacidadPage() {
 
               <section>
                 <h2 className="text-xl font-extrabold text-[#0b2d55] mb-3">
-                  16. Actualizaciones de esta política
+                  17. Actualizaciones de esta política
                 </h2>
 
                 <p>

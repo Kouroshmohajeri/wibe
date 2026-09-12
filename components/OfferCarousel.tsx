@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+
 import {
   ArrowUp,
   Minus,
@@ -10,11 +11,13 @@ import {
   CaretLeft,
   CaretRight,
 } from "@phosphor-icons/react/ssr";
+
 import {
   formatGb,
   type OfferCandidate,
   type InvoiceData,
 } from "@/lib/compareOffers";
+
 import { buildOfferWhatsAppLink } from "@/lib/whatsapp";
 
 export default function OfferCarousel({
@@ -36,9 +39,11 @@ export default function OfferCarousel({
         {offers.map((offer, i) => {
           const offset = i - active;
           const isActive = offset === 0;
+
           const isLeft =
             offset === -1 ||
             (offset === offers.length - 1 && offers.length > 2);
+
           const isRight =
             offset === 1 ||
             (offset === -(offers.length - 1) && offers.length > 2);
@@ -85,6 +90,7 @@ export default function OfferCarousel({
           >
             <CaretLeft size={18} weight="bold" />
           </button>
+
           <div className="flex gap-1.5">
             {offers.map((offer, i) => (
               <button
@@ -97,6 +103,7 @@ export default function OfferCarousel({
               />
             ))}
           </div>
+
           <button
             onClick={() => go(1)}
             aria-label="Oferta siguiente"
@@ -131,14 +138,18 @@ function OfferCard({
         <p className="text-[11px] font-bold uppercase tracking-wide text-white/70">
           {offer.isCheaper ? "Oferta recomendada" : "Alternativa"}
         </p>
+
         <p className="text-xl font-extrabold mt-1">{offer.plan.title}</p>
+
         <p className="text-3xl font-extrabold mt-2">
           {offer.totalMonthly}€
           <span className="text-sm font-semibold text-white/70">/mes</span>
         </p>
+
         {offer.extraLines > 0 && (
           <p className="text-[11px] text-white/60 mt-1">
-            Incluye {offer.extraLines} línea(s) extra (+{offer.extraLinesCost}€)
+            Incluye {offer.extraLines} línea(s) extra (+
+            {offer.extraLinesCost}€)
           </p>
         )}
       </div>
@@ -146,31 +157,54 @@ function OfferCard({
       <div className="p-5 space-y-3">
         <div className="flex items-center justify-between text-sm">
           <span className="flex items-center gap-1.5 text-[#5b7290]">
-            <HouseLine size={16} /> Fibra
+            <HouseLine size={16} />
+            Fibra
           </span>
+
           <span className="font-bold text-[#0b2d55] flex items-center gap-1">
             {offer.fiberComparison.improved ? (
               <ArrowUp size={13} weight="bold" className="text-[#2fae60]" />
             ) : (
               <Minus size={13} className="text-slate-300" />
             )}
+
             {offer.fiberComparison.offered}
           </span>
         </div>
+
         <div className="flex items-center justify-between text-sm">
           <span className="flex items-center gap-1.5 text-[#5b7290]">
-            <DeviceMobile size={16} /> Datos por línea
+            <DeviceMobile size={16} />
+            Datos por línea
           </span>
+
           <span className="font-bold text-[#0b2d55]">
             {formatGb(offer.plan.mobileGbPerLine)}
           </span>
         </div>
+
+        {/* Número real de líneas detectadas en la factura */}
         <div className="flex items-center justify-between text-sm">
-          <span className="text-[#5b7290]">Líneas incluidas</span>
+          <span className="text-[#5b7290]">Líneas móviles</span>
+
           <span className="font-bold text-[#0b2d55]">
-            {offer.plan.includedLines}
+            {invoice.mobile_lines.length}
           </span>
         </div>
+
+        {/* Mostrar las líneas adicionales que necesita el cliente */}
+        {offer.extraLines > 0 && (
+          <div className="flex items-center justify-between text-sm">
+            <span className="text-[#5b7290]">Líneas extra</span>
+
+            <span className="font-bold text-[#0b2d55]">
+              {offer.extraLines}{" "}
+              <span className="font-semibold text-[#5b7290]">
+                (+{offer.extraLinesCost}€)
+              </span>
+            </span>
+          </div>
+        )}
 
         {offer.monthlySavings > 0 ? (
           <div className="rounded-xl bg-[#eaf7ee] text-center py-2.5 mt-2">
@@ -193,7 +227,8 @@ function OfferCard({
           onClick={(e) => dimmed && e.preventDefault()}
           className="mt-2 inline-flex items-center justify-center gap-2 w-full rounded-full bg-[#25D366] text-white py-3.5 font-bold text-sm hover:bg-[#1ebe5b] transition-colors"
         >
-          <WhatsappLogo size={18} weight="fill" /> Lo quiero
+          <WhatsappLogo size={18} weight="fill" />
+          Lo quiero
         </a>
       </div>
     </div>
