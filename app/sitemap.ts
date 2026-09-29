@@ -1,44 +1,59 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://wibeonline.es";
+  const baseUrl = "https://www.wibeonline.es";
 
   const routes = [
-    { path: "", priority: 1, changeFrequency: "weekly" as const },
-    { path: "/planes", priority: 0.9, changeFrequency: "weekly" as const },
-    { path: "/plan-amigo", priority: 0.7, changeFrequency: "monthly" as const },
-    { path: "/comparador", priority: 0.8, changeFrequency: "weekly" as const },
-    { path: "/porque", priority: 0.6, changeFrequency: "monthly" as const },
-    { path: "/soporte", priority: 0.5, changeFrequency: "monthly" as const },
-    { path: "/contacto", priority: 0.8, changeFrequency: "monthly" as const },
+    {
+      path: "/",
+      lastModified: "2026-09-12",
+    },
+    {
+      path: "/planes",
+      lastModified: "2026-09-12",
+    },
+    {
+      path: "/plan-amigo",
+      lastModified: "2026-09-12",
+    },
+    {
+      path: "/comparador",
+      lastModified: "2026-09-12",
+    },
+    {
+      path: "/porque",
+      lastModified: "2026-09-12",
+    },
+    {
+      path: "/soporte",
+      lastModified: "2026-09-12",
+    },
+    {
+      path: "/contacto",
+      lastModified: "2026-09-12",
+    },
 
     // Legal pages
     {
       path: "/aviso-legal",
-      priority: 0.3,
-      changeFrequency: "yearly" as const,
+      lastModified: "2026-09-12",
     },
     {
       path: "/politica-privacidad",
-      priority: 0.3,
-      changeFrequency: "yearly" as const,
+      lastModified: "2026-09-12",
     },
     {
       path: "/politica-cookies",
-      priority: 0.3,
-      changeFrequency: "yearly" as const,
+      lastModified: "2026-09-12",
     },
     {
       path: "/terminos-y-condiciones",
-      priority: 0.3,
-      changeFrequency: "yearly" as const,
+      lastModified: "2026-09-12",
     },
   ];
 
   return routes.map((route) => ({
     url: `${baseUrl}${route.path}`,
-    lastModified: new Date(),
-    changeFrequency: route.changeFrequency,
-    priority: route.priority,
+    lastModified: route.lastModified,
   }));
 }
