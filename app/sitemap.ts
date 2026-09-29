@@ -50,6 +50,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       path: "/terminos-y-condiciones",
       lastModified: "2026-09-12",
     },
+    {
+      path: "/fibra-optica",
+      lastModified: "2026-09-29",
+    },
+    {
+      path: "/fibra-movil",
+      lastModified: "2026-09-29",
+    },
   ];
 
   return routes.map((route) => ({

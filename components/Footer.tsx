@@ -22,6 +22,14 @@ const FOOTER_LINKS = {
       label: "Comparador de factura",
       href: "/comparador",
     },
+    {
+      label: "Fibra óptica",
+      href: "/fibra-optica",
+    },
+    {
+      label: "Fibra y móvil",
+      href: "/fibra-movil",
+    },
   ],
   empresa: [
     {
