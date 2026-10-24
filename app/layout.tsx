@@ -4,6 +4,7 @@ import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
 
 import { Analytics } from "@vercel/analytics/next";
+import PromoPopup from "@/components/PromoPopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -129,6 +130,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col bg-[#f6f9fc] text-[#0b2d55]">
         {children}
         <CookieConsent />
+        <PromoPopup />
         <Analytics />
       </body>
     </html>

@@ -29,6 +29,16 @@ const plans: Plan[] = [
     features: ["1 línea · 60 GB o 2 líneas · 30 GB c/u", "Llamadas ilimitadas"],
     featured: true,
   },
+  {
+    title: "FIBRA 600 + 150 GB",
+    fiber: "600 Mb",
+    mobile: "150 GB",
+    mobileIcon: <DeviceMobile size={26} />,
+    mobileLabel: "Móvil",
+    price: "39€",
+    features: ["1 línea · 150 GB "],
+    featured: true,
+  },
 
   {
     title: "FIBRA 600 + ILIMITADA",
