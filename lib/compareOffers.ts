@@ -54,6 +54,16 @@ export const WIBE_PLANS: WibePlan[] = [
     priceNum: 35,
     priceLabel: "35€",
   },
+  {
+    id: "f600-150",
+    title: "Fibra 600 + 150 GB",
+    fiberMb: 600,
+    fiberSymmetric: false,
+    mobileGbPerLine: 150,
+    includedLines: 1,
+    priceNum: 39,
+    priceLabel: "39€",
+  },
 
   {
     id: "f600-ilim",

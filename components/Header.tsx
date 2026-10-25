@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { href: "/planes", label: "Planes" },
   { href: "/plan-amigo", label: "Plan My Best Friend" },
   { href: "/comparador", label: "Comparador" },
+  { href: "/haz-tu-pack", label: "Haz tu pack" },
   { href: "/porque", label: "Por qué WiBe" },
   { href: "/soporte", label: "Soporte" },
 ];
