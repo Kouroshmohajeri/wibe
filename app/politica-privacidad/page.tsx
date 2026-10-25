@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Política de privacidad y protección de datos de WiBe, producto de JUST SMILE 23 S.L.",
   alternates: {
-    canonical: "https://wibeonline.es/politica-privacidad",
+    canonical: "https://www.wibeonline.es/politica-privacidad",
   },
 };
 

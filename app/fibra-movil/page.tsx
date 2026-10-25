@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description:
     "Combina fibra y móvil con WiBe. Internet rápido en casa y móvil para estar conectado donde quieras, con precios claros y atención de verdad.",
   alternates: {
-    canonical: "https://wibeonline.es/fibra-movil",
+    canonical: "https://www.wibeonline.es/fibra-movil",
   },
   openGraph: {
     title: "Fibra y Móvil | WiBe",

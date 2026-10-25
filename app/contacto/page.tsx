@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Comprueba la cobertura de fibra y móvil de WiBe en tu dirección y te llamamos con la mejor oferta disponible.",
   alternates: {
-    canonical: "https://wibeonline.es/contacto",
+    canonical: "https://www.wibeonline.es/contacto",
   },
 };
 

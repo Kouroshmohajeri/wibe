@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     "Fibra óptica con WiBe: Internet rápido y estable para tu hogar, con precios claros y atención de verdad. Descubre nuestros planes de fibra y comprueba tu cobertura.",
   alternates: {
-    canonical: "https://wibeonline.es/fibra-optica",
+    canonical: "https://www.wibeonline.es/fibra-optica",
   },
   openGraph: {
     title: "Fibra Óptica en España | WiBe",

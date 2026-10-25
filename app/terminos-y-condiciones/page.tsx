@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Términos y condiciones aplicables a los productos y servicios comercializados bajo la marca WiBe.",
   alternates: {
-    canonical: "https://wibeonline.es/terminos-y-condiciones",
+    canonical: "https://www.wibeonline.es/terminos-y-condiciones",
   },
 };
 
