@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Fibra estable, atención humana y trato claro. Descubre por qué elegir WiBe para tu fibra y móvil.",
   alternates: {
-    canonical: "https://wibeonline.es/porque",
+    canonical: "https://www.wibeonline.es/porque",
   },
 };
 

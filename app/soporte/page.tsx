@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Contacta con el soporte de WiBe por teléfono o correo. Atención humana real, respuesta en menos de 24h.",
   alternates: {
-    canonical: "https://wibeonline.es/soporte",
+    canonical: "https://www.wibeonline.es/soporte",
   },
 };
 

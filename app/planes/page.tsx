@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Consulta las tarifas de fibra y móvil de WiBe desde 29.90€/mes. Fibra 600 Mb, 1 Gb y móvil con datos ilimitados, sin complicaciones.",
   alternates: {
-    canonical: "https://wibeonline.es/planes",
+    canonical: "https://www.wibeonline.es/planes",
   },
 };
 

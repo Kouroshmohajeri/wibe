@@ -7,11 +7,11 @@ import Footer from "@/components/Footer";
 import { ShieldCheck } from "@phosphor-icons/react/ssr";
 
 export const metadata: Metadata = {
-  title: "Compara tu Factura Gratis",
+  title: "Comparador de Facturas Gratis | WiBe",
   description:
     "Sube tu factura actual de fibra y móvil y descubre al instante cuánto podrías ahorrar con WiBe.",
   alternates: {
-    canonical: "https://wibeonline.es/comparador",
+    canonical: "https://www.wibeonline.es/comparador",
   },
 };
 
