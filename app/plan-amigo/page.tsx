@@ -7,11 +7,11 @@ import CoverageCta from "@/components/CoverageCta";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Plan My Best Friend",
+  title: "Plan Amigo WiBe | Descuento por Invitar Amigos",
   description:
     "Trae a tu mejor amigo a WiBe y disfrutad de 2€ de descuento en vuestra cuota para siempre, hasta un máximo de 5 amigos.",
   alternates: {
-    canonical: "https://wibeonline.es/plan-amigo",
+    canonical: "https://www.wibeonline.es/plan-amigo",
   },
 };
 
