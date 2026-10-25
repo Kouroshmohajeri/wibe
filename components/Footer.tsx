@@ -15,6 +15,10 @@ const FOOTER_LINKS = {
       href: "/planes",
     },
     {
+      label: "Haz tu pack de fibra y móvil",
+      href: "/haz-tu-pack",
+    },
+    {
       label: "Plan My Best Friend",
       href: "/plan-amigo",
     },
