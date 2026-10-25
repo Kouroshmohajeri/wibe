@@ -18,7 +18,6 @@ const plans: Plan[] = [
     price: "29.90€",
     features: ["1 línea · 30 GB", "Llamadas ilimitadas"],
   },
-
   {
     title: "FIBRA 600 + 60 GB",
     fiber: "600 Mb",
@@ -36,10 +35,11 @@ const plans: Plan[] = [
     mobileIcon: <DeviceMobile size={26} />,
     mobileLabel: "Móvil",
     price: "39€",
-    features: ["1 línea · 150 GB "],
+    originalPrice: "42€",
+    offerLabel: "Oferta limitada · Solo este mes",
+    features: ["1 línea · 150 GB"],
     featured: true,
   },
-
   {
     title: "FIBRA 600 + ILIMITADA",
     fiber: "600 Mb",
@@ -49,7 +49,6 @@ const plans: Plan[] = [
     price: "48€",
     features: ["1 línea · GB ilimitadas", "Llamadas ilimitadas"],
   },
-
   {
     title: "FIBRA 1 Gb + 30 GB",
     fiber: "1 Gb",
@@ -59,7 +58,6 @@ const plans: Plan[] = [
     price: "35€",
     features: ["1 línea · 30 GB", "Llamadas ilimitadas"],
   },
-
   {
     title: "FIBRA 1 Gb + 60 GB",
     fiber: "1 Gb",
@@ -70,7 +68,6 @@ const plans: Plan[] = [
     features: ["1 línea · 60 GB o 2 líneas · 30 GB c/u", "Llamadas ilimitadas"],
     featured: true,
   },
-
   {
     title: "FIBRA 1 Gb + ILIMITADA",
     fiber: "1 Gb",
@@ -84,13 +81,13 @@ const plans: Plan[] = [
 
 export default function Plans() {
   return (
-    <section id="planes" className="py-20 px-6 bg-[#f6f9fc]">
-      <div className="max-w-[640px] mx-auto text-center mb-12">
-        <div className="text-[#2fae60] font-extrabold text-[13px] tracking-wider uppercase">
+    <section id="planes" className="bg-[#f6f9fc] px-6 py-20">
+      <div className="mx-auto mb-12 max-w-[640px] text-center">
+        <div className="text-[13px] font-extrabold uppercase tracking-wider text-[#2fae60]">
           Catálogo de ofertas
         </div>
 
-        <h2 className="text-3xl font-extrabold my-2.5 text-[#0b2d55]">
+        <h2 className="my-2.5 text-3xl font-extrabold text-[#0b2d55]">
           Elige tu combinado fibra + móvil
         </h2>
 
@@ -100,13 +97,13 @@ export default function Plans() {
         </p>
       </div>
 
-      <div className="max-w-[1180px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="mx-auto grid max-w-[1180px] grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {plans.map((plan) => (
           <PlanCard key={plan.title} plan={plan} />
         ))}
       </div>
 
-      <div className="max-w-[1180px] mx-auto mt-10 flex flex-wrap justify-center gap-10 bg-white rounded-2xl py-5 px-8 shadow-lg">
+      <div className="mx-auto mt-10 flex max-w-[1180px] flex-wrap justify-center gap-10 rounded-2xl bg-white px-8 py-5 shadow-lg">
         <div className="flex items-center gap-2.5 text-sm font-bold text-[#0b2d55]">
           <PlusCircle size={20} color={GREEN} />
           Línea móvil adicional: +3€/mes
